@@ -1,9 +1,9 @@
 body{
-    background: #ccc;
+    background: #5050;
 }
 
 #titulo, .subtitulo, .post_tittle7 {
-    color: blue;
+    color: silver
 }
 
 .post_tittle{
@@ -16,8 +16,9 @@ body{
 .post {
     background: #fff;
     padding: 15px;
-    border: 3px solid #000;
+    border: 3px solid #505050;
     margin-bottom: 15px;
+    /*arredondar borda*/ border-radius: 5px;
 }
 
 .post_content {
@@ -30,4 +31,33 @@ body{
     margin: 0;
     margin-bottom: 
 }
-
+.family{
+            font-family: Verdana;
+            }
+ .size{
+            font-size: 30px;
+            font-size: 18px;
+            }
+.style{
+    font-style: normal;
+    font-style: italic;
+ }
+.weight{
+    font-weight: normal;
+    font-weight: bold;
+}
+.transform{
+    text-decoration: uppercase;
+    text-decoration: overline;
+    text-decoration: lowercase;
+}
+.square{
+    list-style-type: square;
+    padding-left: 15px;
+}
+.uper-roman{
+    list-style-type: upper-roman
+}
+.emoge{
+    list-style-type: "\f44d"
+}
