@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cliente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-10 09:52:40 AM"/>
+        <attribute name="created" value="Q2xpZW50ZTtERVNLVE9QLTFIN1UxSUk7MjAyMi0wNC0xMDswOTozOTowOSBBTTszMDE3"/>
+        <attribute name="edited" value="Q2xpZW50ZTtERVNLVE9QLTFIN1UxSUk7MjAyMi0wNC0xMDswOTo1Mjo0MCBBTTsyOzMxMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NOTA1, NOTA2, NOTA3, NOTA4, MEDIA" type="Real" array="False" size=""/>
+            <input variable="NOTA1"/>
+            <input variable="NOTA2"/>
+            <input variable="NOTA3"/>
+            <input variable="NOTA4"/>
+            <assign variable="MEDIA" expression="(NOTA1+NOTA2+NOTA3+NOTA4)/4"/>
+            <output expression="MEDIA" newline="True"/>
+            <if expression="MEDIA&gt;=6">
+                <then>
+                    <output expression="&quot;PASSOU EM PAU NO CU&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;REPROVADO ARROMBADO IHH HIHI&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

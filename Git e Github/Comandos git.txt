@@ -1,0 +1,21 @@
+
+git init (inicia um repositorio git na pasta)
+cd (ir para pasta)
+openssl sha1 comandos.txt
+mkdir (criar pasta)
+ls -a (pasta oculta)
+git config --global user.email "hiago30fernando@hotmail.com"
+git config --global user.name Hiaguinho
+git clone (copiar cod do github)
+Markdown(aumentar fonte com #)
+git add*
+git add + nome de arquivo
+git commit -m "commit inicial"
+git status
+mv (mover arquivo)
+git config --global --unset user.name (mudar nome)
+git config --global user.name (nomear)
+git remote add origin (lista remota)
+git push origin master (enviar repositorio locar para remoto)
+git pull (puxar github)
+git clone (clona o repositorio remoto no local)

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cliente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-10 10:17:14 AM"/>
+        <attribute name="created" value="Q2xpZW50ZTtERVNLVE9QLTFIN1UxSUk7MjAyMi0wNC0xMDsxMDowMDo0NSBBTTsyOTk3"/>
+        <attribute name="edited" value="Q2xpZW50ZTtERVNLVE9QLTFIN1UxSUk7MjAyMi0wNC0xMDsxMDoxNzoxNCBBTTs0OzMxMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, SOBRENOME" type="String" array="False" size=""/>
+            <output expression="&quot;QUAL SEU NOME ARROMBADO&quot;" newline="True"/>
+            <input variable="NOME"/>
+            <output expression="&quot;QUAL SEU SOBRENOME?&quot;" newline="True"/>
+            <input variable="SOBRENOME"/>
+            <output expression="&quot;O SEU NOME &#201; &quot; &amp; NOME &amp; &quot;E SEU SOBRENOME &#201; &quot; &amp; SOBRENOME" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
