@@ -12,7 +12,7 @@
 /*elementos base*/
 body{
   background: var(--preta);
-  font-family: 'Arial', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   color: white;
 }
 
@@ -46,8 +46,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../Img/F1-Dirigir-para-viver.jpg') ;
-
-
+    
     height: 400px;
     background-size: cover;
 
@@ -107,6 +106,4 @@ header nav a:hover{
     display: block;
 }
 
-.carrosel-filmes{
-    margin-top: 5px;
-}
+/*aula de criando baner estilo carrocel*/
